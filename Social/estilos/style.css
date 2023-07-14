@@ -8,12 +8,12 @@
 html,
 body {
   background-color: black;
-  height: 97vh;
+  height: 93vh;
   width: 100vw;
 }
 
 main {
-  height: 90%;
+  height: 66%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +38,7 @@ iframe#frame {
 section.botao {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 69px;
 }
 
 img {
