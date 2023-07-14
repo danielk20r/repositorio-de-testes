@@ -11,7 +11,7 @@ body {
 }
 header{
   display: inline;
-  height: 10px;
+  height: 5px;
 }
 
 main {
@@ -41,7 +41,7 @@ iframe#frame {
 section.botao {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 103px;
+  margin-top: 50px;
 }
 
 img {
