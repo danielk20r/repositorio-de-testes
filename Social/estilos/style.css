@@ -8,12 +8,11 @@
 html,
 body {
   background-color: black;
-  height: 88vh;
-  width: 100vw;
 }
 
 main {
   height: 66%;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
