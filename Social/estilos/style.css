@@ -9,6 +9,10 @@ html,
 body {
   background-color: black;
 }
+header{
+  display: inline;
+  height: 20px;
+}
 
 main {
   height: 66%;
