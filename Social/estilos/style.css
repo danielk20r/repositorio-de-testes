@@ -45,6 +45,8 @@ section.botao {
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
+  box-sizing: border-box;
+  
 }
 
 img {
