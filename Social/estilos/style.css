@@ -4,6 +4,13 @@
   padding: 0px;
   margin: 0px;
 }
+section#pc{
+  display: none;
+}
+
+section.botaopc{
+  display: none;
+}
 
 html,
 body {

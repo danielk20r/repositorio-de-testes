@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/style.css" media="all" />
     <link rel="stylesheet" href="estilos/media-q.css" />
     <title>Social test</title>
   </head>
   <body>
-    
     <section class="botao">
       <a href="home.html" target="frame"
         ><img src="imagens/logo-home.jpg" alt="home"
@@ -23,9 +22,27 @@
         ><img src="imagens/logo-youtube.jpg" alt="Youtube"
       /></a>
     </section>
+    <section class="botaopc">
+      <a href="homepc.html" target="framepc"
+        ><img src="imagens/logo-home.jpg" alt="home"
+      /></a>
+      <a href="githubpc.html" target="framepc"
+        ><img src="imagens/logo-github.jpg" alt="github"
+      /></a>
+      <a href="linkdinpc.html" target="framepc"
+        ><img src="imagens/linkdinazul.png" alt="twitter"
+      /></a>
+      <a href="youtubepc.html" target="framepc"
+        ><img src="imagens/logo-youtube.jpg" alt="Youtube"
+      /></a>
+    </section>
     <main>
       <section id="tele">
         <iframe id="frame" src="home.html" frameborder="0" name="frame">
+        </iframe>
+      </section>
+      <section id="pc">
+        <iframe id="frame" src="homepc.html" frameborder="0" name="framepc">
         </iframe>
       </section>
     </main>

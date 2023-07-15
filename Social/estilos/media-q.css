@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1074px) {
+  main {
+    height: 70vh;
+    width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section#tele {
+    display: none;
+  }
+
+  section.botao{
+    display: none;
+  }
+
+
+  section#pc {
+    background-image: url(../imagens/bwall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 20px  black;
+    height: 628px;
+    width: 947px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section#pc > iframe#frame {
+    height: 303px;
+    width: 538px;
+    border-radius: 5px;
+    transform: translate(-1px, -56px);
+    box-shadow: inset 10px 10px 10px black;
+  }
+
+  section.botaopc{
+    display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+img:hover {
+  border: 2px solid white;
+  box-shadow: 0px 3px 5px white;
+  transform: translate(-5px, -5px);
+  transition: 0.5s;
+}
+
+}
