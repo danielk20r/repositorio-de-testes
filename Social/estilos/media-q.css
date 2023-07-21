@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1109px) {
   main {
     height: 70vh;
     width: 100vw;
@@ -21,23 +21,25 @@
 
   section#pc {
     background-image: url(../imagens/bwall.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: inset 0px 0px 20px 20px  black;
-    height: 628px;
-    width: 947px;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+    width: 1100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
   }
 
   section#pc > iframe#frame {
-    height: 303px;
-    width: 538px;
+    height: 359px;
+    width: 622px;
     border-radius: 5px;
-    transform: translate(-1px, -56px);
+    transform: translate(-1px, -61px);
     box-shadow: inset 10px 10px 10px black;
   }
+
 
   section.botaopc{
     display: flex;
