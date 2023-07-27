@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url(imagem/backgroundbody.jpeg) no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+}
+
+header > img {
+    margin-left: 20px;
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+li {
+    padding: 10px;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    height: 400px;
+    width: 800px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.wel{
+    background: url(imagem/loginimg.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 650px;
+    border-radius: 20px 0 0 20px;
+}
+
+.texto {
+    margin: auto;
+    width: 300px;
+}
+
+.wel:hover {
+    background:url(imagem/backgroundbody.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 40px;
+}
+
+h2 {
+    margin-left: 10px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: gray;
+    
+}
+
+.box {
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 20px;
+    border-color: gray;
+    text-indent: 10px;
+    font-size: 1rem;
+}
+
+.checkAndPw {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 10px;
+    color: gray;
+}
+
+.fpassw {
+    text-decoration: none;
+    color: gray;
+}
+
+.botao {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #000F14, rgba(255, 255, 255, 0), #000F14);
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+
+.botao:hover {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #000F14, rgba(255, 255, 255, 0));
+}
+
+.new {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: gray;
+    text-align: center;
+}
+
+.new > a {
+    text-decoration: none;
+    color: gray;
+}
+
+.new > a:hover {
+    color: rgb(136, 0, 23);
+}
+
+
+footer {
+    color: white;
+    font-weight: bolder;
+}
