@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1109px) {
+
+  head {
+    width: 100%;
+  }
+
   main {
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: center;

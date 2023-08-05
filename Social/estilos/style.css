@@ -6,6 +6,54 @@
   padding: 0px;
   margin: 0px;
 }
+
+header {
+  color: white;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+  background-image: black;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  width: 480px;
+}
+
+@keyframes entrarTexto {
+  from {
+    opacity: 0%;
+  }
+
+  to{
+    opacity: 100%;
+  }
+}
+
+header > div > h1 {
+  font-size: 4em;
+  text-shadow: 2px 2px 10px black;
+  animation-duration: 10s;
+  animation-name: entrarTexto;
+}
+
+header > div > p {
+  font-size: 1.2em;
+  animation-duration: 5s;
+  text-shadow: 2px 2px 5px black;
+  animation-name: entrarTexto;
+}
+
+.nome {
+  align-self: flex-end;
+  text-shadow: 2px 2px 5px black;
+  animation-duration: 17s;
+  animation-name: entrarTexto;
+}
+
 section#pc{
   display: none;
 }
@@ -19,12 +67,6 @@ body {
   background-color: black;
   height: 100vh;
   font-family: 'Orbitron', cursive;
-}
-
-h1 {
-  padding-top: 30px;
-  color: white;
-  text-align: center;
 }
 
 main {
@@ -51,9 +93,9 @@ iframe#frame {
   border-radius: 3px;
 }
 
-p {
+/*p {
   transform: translate(-5px);
-}
+}*/
 
 .linkedin{
   transform: translate(-10px);

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: lightslategray;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+#visor {
+    background-color: lightblue;
+    width: 200px;
+    text-align: right;
+}
+
+.numerosCalc {
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.n1 {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.n2 {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.n3 {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.n3 {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.simboloMais {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.botaoIgual {
+    align-self: flex-end;
+    border: 1px solid black;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 2px;
+}
