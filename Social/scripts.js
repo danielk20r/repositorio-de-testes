@@ -18,4 +18,14 @@
    }
 }
 
+function mostrarFuncao() {
+  let mFuncao = document.getElementById('funcao')
+  mFuncao.innerHTML = ('function nuncaDesistir (Daniel) {<br><br> let foco = 0<br> let determinacao = 0<br> let ambicao = 0<br><br> for (let i = 0; i <= inifity; i++){ <br> foco++<br>determinacao++ <br> ambicao++ <br> }<br> }')
+}
+
+function esconderFuncao() {
+  let mFuncao = document.getElementById('funcao')
+  mFuncao.innerHTML = ''
+}
+
 
