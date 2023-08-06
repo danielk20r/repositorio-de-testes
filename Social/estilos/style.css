@@ -61,6 +61,7 @@ header > div > p {
   text-shadow: 2px 2px 5px black;
   animation-duration: 8s;
   animation-name: entrarTexto;
+  margin-right: 10px;
 }
 
 #botaoLema{
