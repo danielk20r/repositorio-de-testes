@@ -90,6 +90,7 @@ header > div > p {
 }
 
 
+
 section#pc {
   display: none;
 }
@@ -129,23 +130,15 @@ iframe#frame {
   border-radius: 3px;
 }
 
-/*p {
-  transform: translate(-5px);
-}*/
-
-.linkedin {
-  transform: translate(-10px);
-}
-
-.sobremim {
-  transform: translate(-20px);
-  margin-right: -30px;
-}
 
 a {
   color: white;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 section.botao {
   display: flex;
   justify-content: space-evenly;
