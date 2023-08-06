@@ -24,9 +24,9 @@ header {
 }
 
 header > div {
-  width: 280px;
+  width: 250px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /*alteracao depois para o Pc*/
 }
 
 @keyframes entrarTexto {
