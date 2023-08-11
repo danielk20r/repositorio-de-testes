@@ -16,23 +16,33 @@
         <nav>
             <ul>
                 <li><a href="portfoio.html" target="_blank">Visitar Pagina original</a></li>
-                <li><a href="#">Contactos</a></li>
-                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#" onclick="mostrarContactos()">Contactos</a></li>
+            
             </ul>
+                <div id="contactos" onmouseleave="ocultar()">
+                    <p>daniel.santos.barbara@gmail.com</p>
+                    <a href="download/CV Daniel Bárbara.pdf" target="_blank">Download CV</a>
+                    
+                </div>
         </nav>
     </header>
     <body>
         <main>
             <section class="secBoasVindas">
                 <div class="bemVindo">
-                    <div class="quadrado1">
-                        <i class="fa-brands fa-square-js fa-1x"></i>
-                    </div>
-                    <p>Bem vindo</p> 
-                    <p id="nomePessoa"></p>
-                    <div class="quadrado2">
-                        <i class="fa-brands fa-html5 fa-1x"></i>
-                    </div>
+                    
+                        <div class="quadradosDeCima">
+                            <div class="quadrado1">
+                                <i class="fa-brands fa-square-js fa-1x"></i>
+                            </div>
+                            <div class="quadrado3"><i class="fa-brands fa-css3-alt fa-1x"></i></div>
+                        </div>
+                        <p>Bem vindo</p>
+                        <p id="nomePessoa"></p>
+                        <div class="quadrado2">
+                            <i class="fa-brands fa-html5 fa-1x"></i>
+                        </div>
+                    
                 </div>
                 <div class="projectos">
                     <p>Alguns exemplos de projectos</p>
