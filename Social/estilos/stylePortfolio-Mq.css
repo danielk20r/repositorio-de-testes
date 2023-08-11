@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 950px) {
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+
+    header{
+       
+    }
+
+    .linguagens{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        margin-bottom: 50px;
+        max-width: 400px;
+    }
+
+    .softSkills > p {
+        max-width: 300px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .projectosIframe{
+        border-radius: 20px 20px;
+        max-width: 500px;
+        height: 600px;
+        margin-top: 50px;
+    }
+}

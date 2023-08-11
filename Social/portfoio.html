@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/stylePortfolio.css">
+    <link rel="stylesheet" href="estilos/stylePortfolio-Mq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="shortcut icon" href="imagens/fotominha1.jpg" type="image/x-icon">
+    <script src="scripts/scriptPortfolio.js"></script>
+    <title>Portfólio</title>
+</head>
+<body onload="escreverNome()">
+    <header>
+        <h1>Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="portfoio.html" target="_blank">Visitar Pagina original</a></li>
+                <li><a href="#">Contactos</a></li>
+                <li><a href="#">Sobre mim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <main>
+            <section class="secBoasVindas">
+                <div class="bemVindo">
+                    <div class="quadrado1">
+                        <i class="fa-brands fa-square-js fa-1x"></i>
+                    </div>
+                    <p>Bem vindo</p> 
+                    <p id="nomePessoa"></p>
+                    <div class="quadrado2">
+                        <i class="fa-brands fa-html5 fa-1x"></i>
+                    </div>
+                </div>
+                <div class="projectos">
+                    <p>Alguns exemplos de projectos</p>
+                    <div class="projectosIframe">
+                        <iframe id="frame" src="exempProjectos/exLogIn/index.html" frameborder="0">
+                        </iframe>
+                        <a href="#" target="frame"><i class="fa-solid fa-forward" style="color: #050505;"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="secSkills">
+                <div class="hardSkills">
+                    <h2>Hard Skills</h2>
+                    <div class="linguagens">
+                        <div class="html">
+                            <i class="fa-brands fa-html5 fa-6x"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="css">
+                            <i class="fa-brands fa-css3-alt fa-6x"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="javaScript">
+                            <i class="fa-brands fa-square-js fa-6x"></i>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                    <p>Mais virão, aprendizagem em processo</p>
+                    <div class="loading"></div>
+                </div>
+                <div class="softSkills">
+                    <h2>Soft Skills</h2>
+                    <p>Como mencionado no about me, desenvolvi competencias durante a minha experiencia profissional como mecatronico de automoveis.
+                        Neste actual periodo carrego, portanto todas essas competencias, e com a experiencia que adquiri no bytes4future e aprefeicoei-as.
+                        Competencias e qualidades como:
+                        <ul>
+                            <li>Responsabilidade</li>
+                            <li>Resiliencia</li>
+                            <li>Determinacao</li>
+                            <li>Foco</li>
+                            <li>Trabalho em equipa</li>
+                            <li>Comunicacao</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Made by Daniel</p>
+           
+        </footer>
+    </body>
+</body>
+</html>
