@@ -145,6 +145,7 @@ img {
   width: 50px;
   border-radius: 50%;
   box-sizing: border-box;
+  transition: 0.7s;
 }
 
 img:hover {
