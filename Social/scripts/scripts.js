@@ -4,22 +4,22 @@ function carregar() {
   let horas = new Date();
   let h = horas.getHours()
   console.log(h)
-  if (h > 6 && h < 13) {
-    saudacao.innerHTML = `Bom dia, seja bem vindo`;
-    backCores.style.backgroundImage =
-      "linear-gradient(186deg, yellow, rgb(96, 191, 223), black, black)";
-  } else if (h >= 13 && h < 20) {
-    saudacao.innerHTML = `Boa Tarde, seja bem vindo`;
-    backCores.style.backgroundImage =
-      "linear-gradient(186deg, rgb(255, 153, 0), rgb(63, 94, 182), black, black)";
-  } else if (h >= 20 && h <= 24) {
-    backCores.style.backgroundImage =
-      "linear-gradient(186deg, rgb(14, 0, 14), rgb(49, 0, 49), black, black)";
-    saudacao.innerHTML = `Boa noite, seja bem vindo`;
-  } else {
-    backCores.style.backgroundImage =
-      "linear-gradient(186deg, rgb(34, 0, 34), rgb(20, 0, 20), black, black)";
-    saudacao.innerHTML = `Boa madrugada, seja bem vindo`;
+   if (h > 6 && h < 13) {
+     saudacao.innerHTML = `Bom dia, seja bem vindo`;
+     backCores.style.backgroundImage =
+       "linear-gradient(186deg, yellow, rgb(96, 191, 223), black, black)";
+   } else if (h >= 13 && h < 20) {
+     saudacao.innerHTML = `Boa Tarde, seja bem vindo`;
+     backCores.style.backgroundImage =
+       "linear-gradient(186deg, rgb(255, 153, 0), rgb(63, 94, 182), black, black)";
+   } else if (h >= 20 && h <= 24) {
+     backCores.style.backgroundImage =
+       "linear-gradient(186deg, rgb(2, 0, 34), rgb(15, 0, 20), black, black)";
+     saudacao.innerHTML = `Boa noite, seja bem vindo`;
+   } else {
+     backCores.style.backgroundImage =
+     "linear-gradient(186deg, rgb(1, 0, 20), rgb(10, 0, 20), black, black)";
+   saudacao.innerHTML = `Boa madrugada, seja bem vindo`;
   }
 }
 

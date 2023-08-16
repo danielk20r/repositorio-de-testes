@@ -8,7 +8,6 @@ let escreverNome = document.getElementById('nomePessoa')
     } else {
        escreverNome.innerHTML = `${nome}`
     }
-
 }
 
 function mostrarContactos() {
