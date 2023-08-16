@@ -6,7 +6,7 @@ let escreverNome = document.getElementById('nomePessoa')
     } else if (nome===''){
         escreverNome.innerHTML = `ao meu portfolio`
     } else {
-        escreverNome.innerHTML = `${nome}`
+       escreverNome.innerHTML = `${nome}`
     }
 
 }
