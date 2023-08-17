@@ -10,6 +10,11 @@ let escreverNome = document.getElementById('nomePessoa')
     }
 }
 
+
+
+
+
+
 function mostrarContactos() {
         contactos.style.display = 'block'
 }

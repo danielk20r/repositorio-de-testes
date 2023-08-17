@@ -29,7 +29,8 @@ header > nav > ul {
 
 header > nav > ul > li{
     list-style-type: none;
-    padding: 10px;
+    padding: 10px; 
+    
 }
 
 header > nav > ul > li > a {
@@ -43,12 +44,40 @@ header > nav {
     flex-direction: column;
 }
 
+.navSubir{
+   animation: navSobe 5s;
+}
+
+@keyframes navSobe {
+    0% {
+        margin-bottom: 0px;
+    }
+
+    100% {
+        margin-bottom: 30px;
+    }
+}
+
 #contactos{
     width: 250px;
     font-size: 0.8rem;
     padding: 10px;
     display: none;
     align-self: center;
+}
+
+.aparecerSuave {
+    animation: aparecerSuave 5s;
+}
+
+@keyframes aparecerSuave {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 #contactos > a {
@@ -68,7 +97,6 @@ body {
 main {
     display: flex;
     flex-direction: column; 
-    /* width: 100%; */
 }
 
 .secBoasVindas {
@@ -79,6 +107,7 @@ main {
 
 .bemVindo{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +117,7 @@ main {
     color: white;
     text-shadow: 2px 2px 3px black;
     overflow: hidden;
-    width: 100%;
+    
 }
 
 .videoDoHeader{
