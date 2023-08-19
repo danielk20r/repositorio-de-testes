@@ -1,0 +1,23 @@
+ <div class="conteudoSobreMim">
+                        <article>
+                            <p>Tenho 29 anos e sou apaixonado por automoveis e tecnologia.
+                                Desde muito cedo tive uma grande ligacao pelos automoveis e foi esse o caminho inicial que escolhi.
+                                Em 2014 conclui a minha formação de mecatrônico automovel na escola DUAL em Moscavide, e ingressei na CSantos Mercedes - Benz de Cascais. Por lá obtive as minhas hard e <a href="#softSkills">soft skills</a> inicais do mundo automovel.
+                            </p>
+                            <p>
+                                4 anos depois, decidi viajar para outra experiencia numa outra marca premium. De 2019 a 2023 estive numa equipa da BMW Santogal onde cresci pessoalmente e profissionalmente.A responsabilidade já era maior devido aos anos de experiencia no outro concessionario.
+                                Devido a ter uma equipa bastante experiente, comunicativa e unida, consegui desenvolver e aprefeiçoar as minhas <a href="#softSkills">soft skills</a> já adquiridas, retornando à empresa bem estar, eficiencia, determinacao, empenho e resiliência.
+                            </p>
+                        </article>
+                        <figure>
+                        <img width="300px" height="200px" src="imagens/Mercedes.jpg" alt="Carro mercedes na oficina" tabindex="Mercedes">
+                        <img width="300px" height="200px" src="imagens/BMW.jpg" alt="Carro bmw na oficina" title="BMW">
+                        </figure>
+                        <article>
+                            <p>Do outro lado, a tecnologia.
+                                Sempre presente na minha mente e com a parte do automovel cada vez a crescer e a adoptar tecnologia nos seus produtos, sempre foi algo que me fascinou, e entender como tudo funcionava, sempre foi uma curiosidade para mim.
+                                Sempre gostei de construir algo do zero, e sempre tive a curiosidade de perceber como os softwares funcionavam.
+                                Portanto decidi aos 29 anos que nao queria viver o resto da minha vida sem tentar vivenciar a area da programacao. Surgiu a oportunidade de entrar para o Bytes4Future e aqui estou eu tentando progredir a cada dia. Focado e determinhado para alcancar os meus objectivos
+                            </p>
+                        </article>
+                    </div>
