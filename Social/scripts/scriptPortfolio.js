@@ -22,3 +22,5 @@ function mostrarContactos() {
 function ocultar() {
     contactos.style.display = 'none'
 }
+
+// setTimeout(mostrarContactos, 5000)
