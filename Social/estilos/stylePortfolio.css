@@ -63,12 +63,10 @@ header > nav {
     font-size: 0.8rem;
     padding: 10px;
     display: none;
-    display: flex;
-    flex-direction: column;
     align-self: center;
 }
 
-.x{
+#contactos > .x{
     text-align: right;
     margin-right: 15px;
     color: red;
